@@ -1,33 +1,31 @@
-# Employee Performance Analysis: Stratégie RH Basée sur les Données 📈
+# Employee Performance Analysis
 
-Ce projet analyse **100,000** enregistrements de performance pour définir un nouveau modèle de travail axé sur la productivité et l'engagement, et non sur le temps de présence.
+## 🚀 Project Overview (Designed for Beginners)
 
-## 🎯 RÉSUMÉ STRATÉGIQUE : Les Directives Clés
+This project originated from a data analysis session specifically designed for **beginners and non-technical profiles**. Our objective was twofold:
 
-### 1. Productivity & Efficiency: The Output Mandate
+1.  **Pedagogy:** To demonstrate, with numbers, how to transform raw data ($\mathbf{100,000}$ records) into actionable strategic directives.
+2.  **Structure:** To use the HR dataset variables to simulate and better understand the **architecture and management challenges of an organization** (like our GDG Club).
 
-| Metric | Figure | Strategic Directive |
+## 📁 Repository Structure
+
+| Folder/File | Role | Content |
 | :--- | :--- | :--- |
-| **Efficiency Plateau** | Performance is flat: **2.97** (35-40h) vs. **3.00** (>45h). | **DIRECTIVE:** **STOP** measuring by hours. The $\mathbf{0.03}$ point gain is insignificant. **MAXIMIZE** efficiency in the optimal 35-40h range. |
-| **Location Neutrality** | Remote is **3.00** vs. Office is **2.98**. | **DIRECTIVE:** Flexibility is a zero-cost strategic asset. **FORMALIZE** the **Output-Based Work Model** to boost talent attraction. |
+| **`notebook/`** | Main Analysis (Code) | Contains the `GDG-Analysis-session.ipynb` with the full step-by-step analysis. |
+| **`data/`** | Source Dataset | Contains the `Extended_Employee_Performance_and_Productivity_Data.csv` (Source: CC0 license from Kaggle). |
+| **`presentation.ppt`** | Session Slides | The PowerPoint used to deliver the session's content. |
+| **`report.pdf`** | Strategic Report | The final executive document with data-driven recommendations. |
+| **`requirements.txt`** | Python Dependencies | List of libraries needed to run the Notebook. |
+| **`README.md`** | Documentation | The document you are currently reading (Strategic Summary). |
 
-### 2. Engagement & Retention Risk (Surgical Intervention)
+## 🎯 STRATEGIC SUMMARY: Key Data Directives
 
-| Metric | Figure | Strategic Directive |
+**(This summary presents the immediate actions required to optimize the work environment and service/product quality.)**
+
+| Strategic Area | Quantitative Finding | Action Directive |
 | :--- | :--- | :--- |
-| **Hidden Retention Risk** | $\mathbf{24.9\%}$ of employees are **"Neutral"** (Score 3). | **DIRECTIVE:** Deploy **qualitative pulse surveys** to this $\mathbf{24.9\%}$ group. This is the fastest way to improve the work environment and service quality. |
-
-### 3. Talent & Structural Risk Management
-
-| Metric | Figure | Strategic Directive |
-| :--- | :--- | :--- |
-| **Pipeline Security** | $\mathbf{53.8\%}$ is the stable core (30-50 y.o.). | **ACTION:** Implement **Reciprocal Mentorship** to link the core with the $\mathbf{20.5\%}$ young talent, securing knowledge transfer. |
-| **Structural Bottleneck** | HR and Engineering $\rightarrow$ Each **11.0%** of headcount. | **ACTION:** Invest $\rightarrow$ **Technology & Training** in these two $\mathbf{11\%}$ teams to mitigate high operational risk. |
-
----
-
-## 📚 Livrables et Documentation Complémentaires
-
-* **Rapport Final pour les Décideurs :** [Strategic Performance Report Final.pdf]
-* **Slides de Présentation de la Session :** [Presentation Data Analysis Session.pdf]
-* **Jeu de Données Source :** [employee\_data.csv]
+| **1. Work Efficiency** | Performance: **2.9** (35-40h) vs. **3.0** (>45h). | **ACTION:** Stop measuring time. The negligible gain proves efficiency is key. **MAXIMIZE** output in the optimal 35-40h range. |
+| **2. Flexibility** | Remote Work: **3.0** vs. Office: **2.9**. | **ACTION:** Formalize the **"Results-Based Flexible Work"** model to attract top talent and reduce infrastructure costs. |
+| **3. Engagement Risk** | $\mathbf{24.9\%}$ of employees are **"Neutral"** (Score 3). | **URGENCY:** Deploy **targeted qualitative surveys** to convert this $\mathbf{24.9\%}$ risk group into engaged staff and improve the work environment. |
+| **4. Talent Stability** | $\mathbf{53.8\%}$ is the stable core vs. $\mathbf{20.5\%}$ young talent. | **ACTION:** Implement a **Reciprocal Mentorship Program** to secure knowledge and provide clear career paths. |
+| **5. Structural Capacity** | Support Functions (HR/Engineering) are **11%** each. | **ACTION:** Prioritize investment in **technology and training** for these critical $\mathbf{11\%}$ teams to guarantee sustained service/product quality. |
